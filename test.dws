@@ -1,0 +1,26 @@
+*Stupid Servey
+-First Name:
+-text
+--class=form-control
+--name=bcode
+--id=bcode
+-Last Name:
+-text
+--class=form-control
+--name=bdesc
+--id=bdesc
+-Weight:
+-text
+--class=form-control
+--name=bdest
+--id=bdest
+-Age:
+-text
+--class=form-control
+--name=fname
+--id=fname
+-Kevin:
+-text
+--class=form-control
+--name=fname
+--id=fname

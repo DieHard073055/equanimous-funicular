@@ -12,7 +12,7 @@
  *       Compiler:  g++ std=c++11
  *
  *         Author:  Eshan Shafeeq
- *   Organization:  
+ *   Organization:
  *
  * =====================================================================================
  */
@@ -20,7 +20,7 @@
 #include <vector>
 #include "Directory.h"
 #include "Filestructure.h"
-
+#include "Fileprocessor.h"
 
 #define APP_NAME "TODO APP"
 using namespace std;
@@ -53,11 +53,15 @@ void generate_initial_structure(Filestructure fst){
 
 }
 int main(){
-	vector<Directory> dirs;
-	Filestructure fst = Filestructure(APP_NAME);
+	//vector<Directory> dirs;
+	//Filestructure fst = Filestructure(APP_NAME);
 
-	generate_initial_structure(fst);
+	//generate_initial_structure(fst);
+
+	Fileprocessor fp;
+	fp.write_to_file("out.php", fp.generate_form(fp.readfile("test.dws")));
+	cout << "Done Converting test.dws >> out.php";
+
 
 	return 0;
 }
-

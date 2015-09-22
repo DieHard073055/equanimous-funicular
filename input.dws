@@ -1,0 +1,26 @@
+*Book a Trasport
+-Booking code:
+-text
+--class=form-control
+--name=bcode
+--id=bcode
+-Booking Description:
+-text
+--class=form-control
+--name=bdesc
+--id=bdesc
+-Booking Destination:
+-text
+--class=form-control
+--name=bdest
+--id=bdest
+-First Name:
+-text
+--class=form-control
+--name=fname
+--id=fname
+-Last Name:
+-text
+--class=form-control
+--name=fname
+--id=fname
